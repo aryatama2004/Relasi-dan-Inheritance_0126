@@ -29,3 +29,8 @@ public :
     void tambahPasien(pasien*);
     void cetakPasien();
 };   
+
+
+void pasien :: tambahDokter(dokter* pDokter) {
+    daftar_dokter.push_back(pDokter);
+}
