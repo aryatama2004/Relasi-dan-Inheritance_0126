@@ -20,5 +20,5 @@ int main (){
     varIbu1-> cetakAnak();
     varIbu2-> cetakAnak();
 
-
+ 
 }
