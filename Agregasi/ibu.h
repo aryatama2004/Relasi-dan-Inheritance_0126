@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include "anak.h"
+#ifndef IBU_H
 #define IBU_H
 
 using namespace std;
@@ -30,3 +31,13 @@ void ibu::tambahAnak(anak *pAnak)
     daftar_anak.push_back(pAnak);
 }
 
+void ibu::cetakAnak()
+{
+    cout << "daftar anak dari ibu \"" << this->nama << "\":\n";
+    for (auto &a : daftar_anak)
+    {
+        cout << a->nama << "\n";
+    }
+    cout << endl;
+}
+#endif
