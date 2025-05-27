@@ -10,6 +10,8 @@ class pasien {
     pasien(string pNama) :nama(pNama) {
         cout << "pasien \"" << nama <<  "\" tidak ada\n";
     }
+    void tambahDokter(dokter*);
+    void cetakDokter();    
 
 };
 
