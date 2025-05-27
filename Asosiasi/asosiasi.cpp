@@ -60,6 +60,11 @@ int main() {
     varDokter1->tambahPasien(varPasien2);
     varDokter2->tambahPasien(varPasien1);
 
+    varPasien1->tambahDokter(varDokter1);
+    varPasien2->tambahDokter(varDokter2);
+    varPasien1->tambahDokter(varDokter1);
+
+
     varDokter1->cetakPasien();
     varDokter2->cetakPasien();
     varPasien1->cetakDokter();
